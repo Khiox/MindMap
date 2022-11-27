@@ -5,7 +5,7 @@ import  graphviz
 #on a aussi le nom et le type de moteur de rendu, des informations sur ce dernier sont dispo dans la documentation du thread (https://graphviz.org/)
 g = graphviz.Digraph(format='png', filename='V3', engine='dot') #File informations
 #Même chose ici, on a des attributs du graph et des liens (edges)
-g.attr('graph',splines='polyline',constraint='false',labelfontsize='90',outputorder='nodesfirst',mode='KK',labeljust='r',shape='rect', margin='2,2,2,2')
+g.attr('graph',splines='polyline',constraint='false',labelfontsize='90',outputorder='nodesfirst',mode='KK',labeljust='r',shape='rect', margin='0,0,0,0')
 g.attr('edge', decorate='false',remincross='true',labelfontsize='90', len='8', arrowsize='0.5', labelfloat='false', minlen='2.5')
 
 g.attr('node', shape='box',weight='50') #Node attribute
